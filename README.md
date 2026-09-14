@@ -15,7 +15,7 @@
 
 本项目基于纯粹的开源分享精神公布，旨在促进算法竞赛社区的交流与共同进步。
 
-> 🎓 **推荐学习资源**：最后，为各位一样学习算法的大家安利一位博主：bilibili 的 UP 主 **左程云**。该 UP 主的视频涵盖从入门到进阶的各方面的算法，他的视频时间长，讲解详细细致，代码简洁清晰易懂，每节课都会配有相应的例题。在这里强烈推荐大家可以通过左神的课学习，本人的算法学习除了看帖子以外，大部分依赖左神的课。
+> 🎓 **推荐学习资源**：为各位一样学习算法的大家安利一位博主：bilibili 的 UP 主 **左程云**。该 UP 主的视频涵盖从入门到进阶的各方面的算法，他的视频时间长，讲解详细细致，代码简洁清晰易懂，每节课都会配有相应的例题。在这里强烈推荐大家可以通过左神的课学习，本人的算法学习除了看帖子以外，大部分依赖左神的课。
 
 > ⚠️ **反馈与指正**：如果您在使用过程中发现任何错误、Bug 或优化空间，欢迎通过提交 Issue 或 Pull Request 指出，我会及时查看并进行修改。
 
@@ -42,7 +42,7 @@ All code templates are written in **C++**. This project is expected to be mainta
 
 This project is published based on the pure spirit of open-source sharing, aiming to promote communication and mutual progress within the competitive programming community.
 
-> 🎓 **Recommended Learning Resource**: Finally, I would like to recommend a creator for everyone learning algorithms: **Zuo Chengyun (左程云)**, a Bilibili uploader. His videos cover algorithms from beginner to advanced levels. The videos are long, the explanations are detailed and thorough, the code is concise, clear, and easy to understand, and each lesson is paired with corresponding example problems. I strongly recommend learning through Zuo Shen's courses. Apart from reading posts, most of my own algorithm learning has relied on Zuo Shen's courses.
+> 🎓 **Recommended Learning Resource**: I would like to recommend a creator for everyone learning algorithms: **Zuo Chengyun (左程云)**, a Bilibili uploader. His videos cover algorithms from beginner to advanced levels. The videos are long, the explanations are detailed and thorough, the code is concise, clear, and easy to understand, and each lesson is paired with corresponding example problems. I strongly recommend learning through Zuo Shen's courses. Apart from reading posts, most of my own algorithm learning has relied on Zuo Shen's courses.
 
 > ⚠️ **Feedback & Corrections**: If you find any errors, bugs, or room for optimization during use, please feel free to submit an Issue or Pull Request. I will check and modify them promptly.
 
