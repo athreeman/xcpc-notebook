@@ -8,10 +8,10 @@
 
 > 📄 **文档下载**：PDF 和 Word 文档（中英双版本）会随代码同步更新，可能存在一定延迟。
 >
-> - [ICPC 模板 · Word（中文）](https://raw.githubusercontent.com/athreeman/AlgorithmTemplateCode_WIP/main/ICPC%E6%A8%A1%E6%9D%BF.docx)
-> - [ICPC 模板 · PDF（中文）](https://raw.githubusercontent.com/athreeman/AlgorithmTemplateCode_WIP/main/ICPC%E6%A8%A1%E6%9D%BF.pdf)
-> - [ICPC Template · Word (EN)](https://raw.githubusercontent.com/athreeman/AlgorithmTemplateCode_WIP/main/ICPC%E6%A8%A1%E6%9D%BF-EN.docx)
-> - [ICPC Template · PDF (EN)](https://raw.githubusercontent.com/athreeman/AlgorithmTemplateCode_WIP/main/ICPC%E6%A8%A1%E6%9D%BF-EN.pdf)
+> - [ICPC 模板 · Word（中文）](https://raw.githubusercontent.com/athreeman/xcpc-notebook/main/ICPC%E6%A8%A1%E6%9D%BF.docx)
+> - [ICPC 模板 · PDF（中文）](https://raw.githubusercontent.com/athreeman/xcpc-notebook/main/ICPC%E6%A8%A1%E6%9D%BF.pdf)
+> - [ICPC Template · Word (EN)](https://raw.githubusercontent.com/athreeman/xcpc-notebook/main/ICPC%E6%A8%A1%E6%9D%BF-EN.docx)
+> - [ICPC Template · PDF (EN)](https://raw.githubusercontent.com/athreeman/xcpc-notebook/main/ICPC%E6%A8%A1%E6%9D%BF-EN.pdf)
 
 本项目基于纯粹的开源分享精神公布，旨在促进算法竞赛社区的交流与共同进步。
 
@@ -35,10 +35,10 @@ All code templates are written in **C++**. This project is expected to be mainta
 
 > 📄 **Document Download**: PDF and Word documents (in both Chinese and English) are updated in sync with the code, with possible delays.
 >
-> - [ICPC Template · Word (Chinese)](https://raw.githubusercontent.com/athreeman/AlgorithmTemplateCode_WIP/main/ICPC%E6%A8%A1%E6%9D%BF.docx)
-> - [ICPC Template · PDF (Chinese)](https://raw.githubusercontent.com/athreeman/AlgorithmTemplateCode_WIP/main/ICPC%E6%A8%A1%E6%9D%BF.pdf)
-> - [ICPC Template · Word (EN)](https://raw.githubusercontent.com/athreeman/AlgorithmTemplateCode_WIP/main/ICPC%E6%A8%A1%E6%9D%BF-EN.docx)
-> - [ICPC Template · PDF (EN)](https://raw.githubusercontent.com/athreeman/AlgorithmTemplateCode_WIP/main/ICPC%E6%A8%A1%E6%9D%BF-EN.pdf)
+> - [ICPC Template · Word (Chinese)](https://raw.githubusercontent.com/athreeman/xcpc-notebook/main/ICPC%E6%A8%A1%E6%9D%BF.docx)
+> - [ICPC Template · PDF (Chinese)](https://raw.githubusercontent.com/athreeman/xcpc-notebook/main/ICPC%E6%A8%A1%E6%9D%BF.pdf)
+> - [ICPC Template · Word (EN)](https://raw.githubusercontent.com/athreeman/xcpc-notebook/main/ICPC%E6%A8%A1%E6%9D%BF-EN.docx)
+> - [ICPC Template · PDF (EN)](https://raw.githubusercontent.com/athreeman/xcpc-notebook/main/ICPC%E6%A8%A1%E6%9D%BF-EN.pdf)
 
 This project is published based on the pure spirit of open-source sharing, aiming to promote communication and mutual progress within the competitive programming community.
 
