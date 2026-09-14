@@ -29,6 +29,7 @@ namespace name {
     using std::unordered_multimap;
     using std::bitset;
 
+    using std::find;
     using std::sort;
     using std::reverse;
     using std::unique;
@@ -46,6 +47,7 @@ namespace name {
 
     using ll = long long;
     using ull = unsigned long long;
+    using ill = __int128_t;
     using ld = long double;
     using ill = __int128_t;
 
