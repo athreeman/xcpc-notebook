@@ -35,4 +35,4 @@ This project is published based on the pure spirit of open-source sharing, aimin
 > 🤖 **Note**: The writing and formatting of this README were assisted by AI.
 
 ---
-*Last Updated: 2026-07*
+*Last Updated: 2026-09*
