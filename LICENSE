@@ -1,17 +1,33 @@
 版权所有 (c) 2026 athreeman。保留所有权利。
 
-本项目基于纯粹的开源和共享精神公布。允许任何人免费下载、使用和传播本项目的代码、文档及相关内容。
+本项目基于纯粹的开源与共享精神公布。
 
-但是，绝对不允许以任何方式将本项目（包括但不限于代码、文档、衍生作品）用于谋取利益或任何商业用途。
+一、许可范围
+在不违反本协议第二条的前提下，任何人都可以免费对本项目的代码、文档及相关内容进行使用、下载、传播、分发、修改及二次创作，用于学习、交流、教学等任何非牟利、非商业用途。
 
-原作者保留对本项目的最终所有权和解释权。
+二、禁止事项
+严禁以任何方式将本项目（包括但不限于代码、文档及由其所产生的衍生作品）用于谋取利益或任何商业用途。
 
---------------------------------------------------
+三、开源与共享精神
+任何使用、传播、分发及二次创作行为均应遵守开源与共享精神，并保留本许可声明与原作者署名。
+
+四、权利保留
+原作者保留对本项目的所有权、最终解释权及法律允许范围内的一切权利。
+
+---
 
 Copyright (c) 2026 athreeman. All rights reserved.
 
-This project is published based on the pure spirit of open source and sharing. Anyone is permitted to freely download, use, and distribute the code, documentation, and related content of this project.
+This project is published based on the pure spirit of open source and sharing.
 
-However, it is absolutely prohibited to use this project (including but not limited to code, documentation, and derivative works) for profit or any commercial purposes in any way.
+1. Scope of Permission
+Subject to Section 2 below, anyone may freely use, download, distribute, share, modify, and create derivative works from the code, documentation, and related content of this project, for non-profit and non-commercial purposes such as study, exchange, and teaching.
 
-The original author retains the ultimate ownership and right of interpretation of this project.
+2. Prohibitions
+It is strictly prohibited to use this project (including but not limited to the code, documentation, and any derivative works thereof) for profit or any commercial purpose in any way.
+
+3. Open-Source & Sharing Spirit
+All use, distribution, sharing, and derivative creation shall comply with the spirit of open source and sharing, and shall retain this license notice and the original author's attribution.
+
+4. Rights Reserved
+The original author reserves all ownership, the right of final interpretation, and all other rights permitted by law over this project.
