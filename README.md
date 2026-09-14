@@ -6,6 +6,8 @@
 
 所有代码模板均使用 **C++** 语言编写。本项目预期会长期维护并持续更新，后续将不仅限于代码文件，还会整理并同步提供 Word 和 PDF 格式的文档，方便大家离线查阅与打印。
 
+> 📄 **文档版本说明**：PDF 和 Word 文档将提供中英双版本。
+
 本项目基于纯粹的开源分享精神公布，旨在促进算法竞赛社区的交流与共同进步。
 
 > ⚠️ **反馈与指正**：如果您在使用过程中发现任何错误、Bug 或优化空间，欢迎通过提交 Issue 或 Pull Request 指出，我会及时查看并进行修改。
@@ -19,6 +21,8 @@
 This project is dedicated to compiling a comprehensive and standardized set of XCPC (ICPC/CCPC and other programming contests) algorithm templates. These templates are organized by active ACM team members during their daily training and competitions, aiming to provide reliable and efficient reference code and documents for competitive programmers.
 
 All code templates are written in **C++**. This project is expected to be maintained and updated continuously in the long term. In addition to code files, Word and PDF documents will also be organized and provided for offline reading and printing.
+
+> 📄 **Document Version Note**: PDF and Word documents will be provided in both Chinese and English versions.
 
 This project is published based on the pure spirit of open-source sharing, aiming to promote communication and mutual progress within the competitive programming community.
 
