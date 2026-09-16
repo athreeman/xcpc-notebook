@@ -8,7 +8,12 @@
 
 > 📄 **文档更新**：PDF 和 Word 文档（中英双版本）会随代码同步更新，可能存在一定延迟。
 >
-> 📦 **版本发布**：PDF 和 Word 文档将通过 [Releases](https://github.com/athreeman/xcpc-notebook/releases) 发布，版本号以发布日期命名（例如：`2026-09-16`）。
+> 📦 **版本发布**：PDF 和 Word 文档将通过 [Releases](https://github.com/athreeman/xcpc-notebook/releases) 发布。版本号采用“日期 + 序号”格式：`YYYY.MM.DD.N`。
+>
+> - `YYYY.MM.DD`：发布日期，月份和日期补零，例如 `2026.09.16`。
+> - `N`：当天发布序号，从 `0` 开始。当天首次发布为 `.0`；后续 Bug 修复或小修订依次为 `.1`、`.2`、`.3`……
+>
+> 示例：`2026.09.16.0` 表示 2026 年 9 月 16 日初版；`2026.09.16.1` 表示当天第一次修订；`2026.10.01.0` 表示 2026 年 10 月 1 日新内容发布。
 
 本项目基于纯粹的源码开放与自由共享精神公布，旨在促进算法竞赛社区的交流与共同进步。
 
@@ -32,7 +37,12 @@ All code templates are written in **C++**. This project is expected to be mainta
 
 > 📄 **Document Update**: PDF and Word documents (in both Chinese and English) are updated in sync with the code, with possible delays.
 >
-> 📦 **Release Versioning**: PDF and Word documents are published via [Releases](https://github.com/athreeman/xcpc-notebook/releases). Version numbers are based on the release date (e.g., `2026-09-16`).
+> 📦 **Release Versioning**: PDF and Word documents are published via [Releases](https://github.com/athreeman/xcpc-notebook/releases). Version numbers use a "date + sequence" format: `YYYY.MM.DD.N`.
+>
+> - `YYYY.MM.DD`: release date, with zero-padded month and day, e.g. `2026.09.16`.
+> - `N`: release sequence for that day, starting from `0`. The first release of the day is `.0`; subsequent bug fixes or minor revisions are `.1`, `.2`, `.3`, etc.
+>
+> Example: `2026.09.16.0` is the initial release on September 16, 2026; `2026.09.16.1` is the first revision on the same day; `2026.10.01.0` is a new content release on October 1, 2026.
 
 This project is published based on the pure spirit of source availability and free sharing, aiming to promote communication and mutual progress within the competitive programming community.
 
