@@ -6,12 +6,9 @@
 
 所有代码模板均使用 **C++** 语言编写。本项目预期会长期维护并持续更新，并同步提供 Word 和 PDF 格式的文档，方便大家离线查阅与打印。
 
-> 📄 **文档下载**：PDF 和 Word 文档（中英双版本）会随代码同步更新，可能存在一定延迟。
+> 📄 **文档更新**：PDF 和 Word 文档（中英双版本）会随代码同步更新，可能存在一定延迟。
 >
-> - [ICPC 模板 · Word（中文）](https://raw.githubusercontent.com/athreeman/xcpc-notebook/main/ICPC%E6%A8%A1%E6%9D%BF.docx)
-> - [ICPC 模板 · PDF（中文）](https://raw.githubusercontent.com/athreeman/xcpc-notebook/main/ICPC%E6%A8%A1%E6%9D%BF.pdf)
-> - [ICPC Template · Word (EN)](https://raw.githubusercontent.com/athreeman/xcpc-notebook/main/ICPC%E6%A8%A1%E6%9D%BF-EN.docx)
-> - [ICPC Template · PDF (EN)](https://raw.githubusercontent.com/athreeman/xcpc-notebook/main/ICPC%E6%A8%A1%E6%9D%BF-EN.pdf)
+> 📦 **版本发布**：PDF 和 Word 文档将通过 [Releases](https://github.com/athreeman/xcpc-notebook/releases) 发布，版本号以发布日期命名（例如：`2026-09-16`）。
 
 本项目基于纯粹的源码开放与自由共享精神公布，旨在促进算法竞赛社区的交流与共同进步。
 
@@ -33,12 +30,9 @@ This project is dedicated to compiling a comprehensive and standardized set of X
 
 All code templates are written in **C++**. This project is expected to be maintained and updated continuously in the long term, with Word and PDF documents provided and kept in sync for offline reading and printing.
 
-> 📄 **Document Download**: PDF and Word documents (in both Chinese and English) are updated in sync with the code, with possible delays.
+> 📄 **Document Update**: PDF and Word documents (in both Chinese and English) are updated in sync with the code, with possible delays.
 >
-> - [ICPC Template · Word (Chinese)](https://raw.githubusercontent.com/athreeman/xcpc-notebook/main/ICPC%E6%A8%A1%E6%9D%BF.docx)
-> - [ICPC Template · PDF (Chinese)](https://raw.githubusercontent.com/athreeman/xcpc-notebook/main/ICPC%E6%A8%A1%E6%9D%BF.pdf)
-> - [ICPC Template · Word (EN)](https://raw.githubusercontent.com/athreeman/xcpc-notebook/main/ICPC%E6%A8%A1%E6%9D%BF-EN.docx)
-> - [ICPC Template · PDF (EN)](https://raw.githubusercontent.com/athreeman/xcpc-notebook/main/ICPC%E6%A8%A1%E6%9D%BF-EN.pdf)
+> 📦 **Release Versioning**: PDF and Word documents are published via [Releases](https://github.com/athreeman/xcpc-notebook/releases). Version numbers are based on the release date (e.g., `2026-09-16`).
 
 This project is published based on the pure spirit of source availability and free sharing, aiming to promote communication and mutual progress within the competitive programming community.
 
