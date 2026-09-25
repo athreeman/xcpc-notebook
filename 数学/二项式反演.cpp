@@ -2,36 +2,17 @@
 using namespace std;
 using ll = long long;
 
-// 二项式反演：
-// 以下f和g函数都是对i范围上的求和
-// 0 <= i <= n
-// g(n) = (-1)^i * C(n, i) * f(i) 等价于 f(n) = (-1)^i * C(n, i) * g(i)
-// g(n) = C(n, i) * f(i) 等价于 f(n) = (-1)^(n - i) * C(n, i) * g(i)
+// 组合恒等式：C(n, m) = C(n - 1, m) + C(n - 1, m - 1)
+// C(n, m) = n!/ (m!*(n - m)!)
+// 0 != 1, 0的0次幂 = 1
 
-// n <= i <= N
-// g(n) = (-1)^i * C(i, n) * f(i) 等价于 f(n) = (-1)^i * C(i, n) * g(i)
-// g(n) = C(i, n) * f(i) 等价于 f(n) = (-1)^(i - n) * C(i, n) * g(i)
-
-// g(i)：钦定必须选择某i个元素, 且形成的交集元素至少包含这i个
-// 2 ^ (n - i)：选择了必选的i个元素的所有集合(i个必选, 决定集合不同的项是其他n - i个, n - i个任选)
-// 2 ^ (2 ^ (n - i)) - 1：所有选择了必选元素的所有集合, 选或不选的方案数(-1即不能为空)
-// g(i) = C(n, i) * (2 ^ (2 ^ (n - i)) - 1)
-
-// f(i)：挑选集合后, 集合形成的交集刚好是i个元素
-// 特征式：g(k) = f(i) * C(i, k) 求和(k <= i <= n)
-// 表示：从f(i)刚好的i个元素中, 选择出k个作为g(k)钦定的至少k个元素
-// 命中了第四个反演式
-// f(k) = (-1)^(i - k) * C(i, k) * g(i) 求和(k <= i <= n)
-
-// https://www.luogu.com.cn/problem/P10596
-// 核心：该题运用了钦定至少k个 -> 恰好k个的转化
-// 此类转化往往是二项式反演的核心
+// 二项式系数的组合分解公式：
+// C(j, i)* C(i, n) = C(j, n) * C(j - n, j - i)
 
 const int mod = 1e9 + 7;
-const int MAXN = 1e6;
+const int MAXN = 2e5;
 ll fac[MAXN + 1];// fac[i]即(i!)对mod取模的结果
 ll inv[MAXN + 1];// inv[i]即(i!)模mod意义下的逆元
-ll g[MAXN + 1];
 
 ll pw(ll a, ll b) {
     ll res = 1;
@@ -64,36 +45,15 @@ ll C(ll n, ll m) {
     return (((fac[n] * inv[m]) % mod) * inv[n - m]) % mod;
 }
 
-void prepare(int n) {
-    init(n);
-    // g(i) = C(n, i) * (2 ^ (2 ^ (n - i)) - 1)
-    ll tmp = 2;
-    for (int i = n;i >= 0;i--) {
-        g[i] = tmp;
-        tmp = tmp * tmp % mod;
-    }
-    for (int i = 0;i <= n;i++) {
-        g[i] = (g[i] + mod - 1) % mod * C(n, i) % mod;
-    }
-}
 
-ll f(int k, int n) {
-    ll ans = 0;
-    // f(k) = (-1)^(i - k) * C(i, k) * g(i) 求和(k <= i <= n)
-    for (int i = k;i <= n;i++) {
-        if ((i - k) & 1) {
-            ans = (ans + C(i, k) * (mod - 1) % mod * g[i] % mod) % mod;
-        }
-        else {
-            ans = (ans + C(i, k) * g[i] % mod) % mod;
-        }
+// 暴力求解组合数
+ll C2(ll n, ll m) {
+    if (m > n || m < 0) return 0;
+    if (m == 0 || m == n) return 1;
+    if (m > n - m) m = n - m;
+    ll res = 1;
+    for (ll i = 1; i <= m; i++) {
+        res = res * (n - m + i) / i;
     }
-    return ans;
-}
-
-void solve() {
-    int n, k;
-    cin >> n >> k;
-    prepare(n);
-    cout << f(k, n);
+    return res;
 }
