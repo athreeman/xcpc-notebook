@@ -17,7 +17,7 @@ void isPwTwo(int n) {
     }
 }
 
-int GetLowBitOne(int a){}
+int GetLowBitOne(int a) {}
 //找到最小的非负整数k,使得a+k的最低位1>=minV
 int calCost(int a, int minV) {
     int v = GetLowBitOne(a);
@@ -30,7 +30,7 @@ int calCost(int a, int minV) {
 
 // 用给定位状态status的1位组成的集合(即status位状态的所有子集)
 // 循环遍历,该方法的遍历保证严格下降不重复
-void s(){
+void s(int status) {
     for (int i = status;i > 0;i = (i - 1) & status) {
         cout << i << ' ';
     }
@@ -40,5 +40,25 @@ void s(){
 // 对于任意整数a, b
 // 都满足a + b = a ^ b + 2(a & b)
 
+int add(int a, int b) {
+    return a ^ b + 2 * (a & b);
+}
+
 // 快速提取x最右侧的1(x!=0)
 // ll lowBitOne=x&(-x)
+int lowBitOne(int x) {// 返回的是值
+    return x & (-x);
+}
+
+// __builtin_clzll: 返回前导0的个数
+// __builtin_ctzll: 末尾0的个数
+// 注意: 两个函数写法上唯一的区别就是clzll, ctzll上l和t的不同, 注意区分!
+
+int lowBit(int x) {// 返回的是下标
+    return __builtin_ctzll((unsigned long long)x);
+}
+
+// 快速提取x的最高位1(x!=0)
+int topBit(int x) {// 返回的是下标
+    return 63 - __builtin_clzll((unsigned long long)x);
+}
